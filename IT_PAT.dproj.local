@@ -2,18 +2,18 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>2022/07/18 09:50:34.000.050,=C:\Users\Jude\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2022/07/18 18:53:58.000.612,C:\Users\Jude\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Jude\Desktop\IT PAT Gr10\IT_PAT_Gr10.pas</Transaction>
-    <Transaction>2022/07/18 18:53:58.000.612,C:\Users\Jude\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Jude\Desktop\IT PAT Gr10\IT_PAT_Gr10.dfm</Transaction>
-    <Transaction>2022/07/18 18:54:26.000.298,C:\Users\Jude\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Jude\Desktop\IT PAT Gr10\IT_PAT.dproj</Transaction>
+    <Transaction>2022/07/18 18:53:58.000.612,C:\Users\Jude\Desktop\IT PAT Gr10\IT_PAT_Gr10.dfm=C:\Users\Jude\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/07/18 18:53:58.000.612,C:\Users\Jude\Desktop\IT PAT Gr10\IT_PAT_Gr10.pas=C:\Users\Jude\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/07/18 18:54:26.000.298,C:\Users\Jude\Desktop\IT PAT Gr10\IT_PAT.dproj=C:\Users\Jude\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
     <Transaction>2022/07/31 08:48:58.000.731,=C:\Users\Jude\Desktop\IT PAT Gr10\Unit2.pas</Transaction>
-    <Transaction>2022/07/31 08:51:53.000.900,C:\Users\Jude\Desktop\IT PAT Gr10\MainPage.pas=C:\Users\Jude\Desktop\IT PAT Gr10\Unit2.pas</Transaction>
-    <Transaction>2022/07/31 08:51:53.000.900,C:\Users\Jude\Desktop\IT PAT Gr10\MainPage.dfm=C:\Users\Jude\Desktop\IT PAT Gr10\Unit2.dfm</Transaction>
+    <Transaction>2022/07/31 08:51:53.000.900,C:\Users\Jude\Desktop\IT PAT Gr10\Unit2.pas=C:\Users\Jude\Desktop\IT PAT Gr10\MainPage.pas</Transaction>
+    <Transaction>2022/07/31 08:51:53.000.900,C:\Users\Jude\Desktop\IT PAT Gr10\Unit2.dfm=C:\Users\Jude\Desktop\IT PAT Gr10\MainPage.dfm</Transaction>
     <Transaction>2022/07/31 08:52:06.000.394,=C:\Users\Jude\Desktop\IT PAT Gr10\Unit2.pas</Transaction>
-    <Transaction>2022/07/31 09:04:03.000.373,C:\Users\Jude\Desktop\IT PAT Gr10\Game.dfm=C:\Users\Jude\Desktop\IT PAT Gr10\Unit2.dfm</Transaction>
-    <Transaction>2022/07/31 09:04:03.000.373,C:\Users\Jude\Desktop\IT PAT Gr10\Game.pas=C:\Users\Jude\Desktop\IT PAT Gr10\Unit2.pas</Transaction>
+    <Transaction>2022/07/31 09:04:03.000.373,C:\Users\Jude\Desktop\IT PAT Gr10\Unit2.pas=C:\Users\Jude\Desktop\IT PAT Gr10\Game.pas</Transaction>
+    <Transaction>2022/07/31 09:04:03.000.373,C:\Users\Jude\Desktop\IT PAT Gr10\Unit2.dfm=C:\Users\Jude\Desktop\IT PAT Gr10\Game.dfm</Transaction>
     <Transaction>2022/08/08 16:22:02.000.090,=C:\Users\Jude\Desktop\IT PAT Gr10\Unit1.pas</Transaction>
-    <Transaction>2022/08/08 16:23:44.000.980,C:\Users\Jude\Desktop\IT PAT Gr10\Login_d.pas=C:\Users\Jude\Desktop\IT PAT Gr10\Unit1.pas</Transaction>
-    <Transaction>2022/08/08 16:23:44.000.980,C:\Users\Jude\Desktop\IT PAT Gr10\Login_d.dfm=C:\Users\Jude\Desktop\IT PAT Gr10\Unit1.dfm</Transaction>
+    <Transaction>2022/08/08 16:23:44.000.980,C:\Users\Jude\Desktop\IT PAT Gr10\Unit1.pas=C:\Users\Jude\Desktop\IT PAT Gr10\Login_d.pas</Transaction>
+    <Transaction>2022/08/08 16:23:44.000.980,C:\Users\Jude\Desktop\IT PAT Gr10\Unit1.dfm=C:\Users\Jude\Desktop\IT PAT Gr10\Login_d.dfm</Transaction>
     <Transaction>2022/08/08 16:54:13.000.892,=C:\Users\Jude\Desktop\IT PAT Gr10\Unit2.pas</Transaction>
   </Transactions>
 </BorlandProject>

@@ -6,9 +6,9 @@ uses
   System.SysUtils, System.Classes, Data.DB, Data.Win.ADODB;
 
 type
-  TDataModule1 = class(TDataModule)
-    ADOConnection1: TADOConnection;
-    ADOTable1: TADOTable;
+  TdbmLogins = class(TDataModule)
+    conLogins: TADOConnection;
+    tblLogins: TADOTable;
     DataSource1: TDataSource;
     ADODataSet1: TADODataSet;
   private
@@ -18,7 +18,7 @@ type
   end;
 
 var
-  DataModule1: TDataModule1;
+  dbmLogins: TdbmLogins;
 
 implementation
 

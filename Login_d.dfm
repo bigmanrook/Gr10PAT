@@ -1,8 +1,8 @@
-object DataModule1: TDataModule1
+object dbmLogins: TdbmLogins
   OldCreateOrder = True
   Height = 201
   Width = 389
-  object ADOConnection1: TADOConnection
+  object conLogins: TADOConnection
     ConnectionString = 
       'Provider=Microsoft.Jet.OLEDB.4.0;Data Source=Grade10PAT.mdb;Pers' +
       'ist Security Info=False'
@@ -10,13 +10,13 @@ object DataModule1: TDataModule1
     Left = 136
     Top = 104
   end
-  object ADOTable1: TADOTable
-    Connection = ADOConnection1
+  object tblLogins: TADOTable
+    Connection = conLogins
     Left = 256
     Top = 104
   end
   object DataSource1: TDataSource
-    DataSet = ADOTable1
+    DataSet = tblLogins
     Left = 240
     Top = 56
   end
