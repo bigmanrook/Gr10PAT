@@ -79,6 +79,7 @@ object Form1: TForm1
         Height = 25
         Caption = 'Register'
         TabOrder = 0
+        OnClick = btnRegisterClick
       end
       object Username: TLabeledEdit
         Left = 248
