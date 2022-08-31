@@ -9,8 +9,8 @@ type
   TdbmLogins = class(TDataModule)
     conLogins: TADOConnection;
     tblLogins: TADOTable;
-    DataSource1: TDataSource;
-    ADODataSet1: TADODataSet;
+    dsLogins: TDataSource;
+    DSTLogins: TADODataSet;
   private
     { Private declarations }
   public

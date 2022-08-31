@@ -10,7 +10,6 @@ object Form1: TForm1
   Font.Height = -12
   Font.Name = 'Segoe UI'
   Font.Style = []
-  OldCreateOrder = True
   PixelsPerInch = 96
   TextHeight = 15
   object EnterPaeg: TPageControl
@@ -18,7 +17,7 @@ object Form1: TForm1
     Top = 17
     Width = 609
     Height = 432
-    ActivePage = Register
+    ActivePage = Login
     TabOrder = 0
     object Login: TTabSheet
       Caption = 'Login'
@@ -46,7 +45,7 @@ object Form1: TForm1
       end
       object edtUsername: TEdit
         Left = 287
-        Top = 139
+        Top = 147
         Width = 121
         Height = 23
         TabOrder = 1
@@ -67,6 +66,7 @@ object Form1: TForm1
         Height = 25
         Caption = 'Login'
         TabOrder = 3
+        OnClick = btnLoginClick
       end
     end
     object Register: TTabSheet
