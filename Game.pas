@@ -8,10 +8,9 @@ uses
 
 type
   TfrmGameChoose = class(TForm)
-    RadioButton1: TRadioButton;
-    RadioButton2: TRadioButton;
-    RadioButton3: TRadioButton;
-    RadioButton4: TRadioButton;
+    btnMath: TButton;
+    btnPhysics: TButton;
+    btnChem: TButton;
   private
     { Private declarations }
   public

@@ -12,36 +12,28 @@ object frmGameChoose: TfrmGameChoose
   Font.Style = []
   PixelsPerInch = 96
   TextHeight = 15
-  object RadioButton1: TRadioButton
-    Left = 160
-    Top = 256
-    Width = 113
-    Height = 17
-    Caption = 'RadioButton1'
+  object btnMath: TButton
+    Left = 280
+    Top = 272
+    Width = 75
+    Height = 25
+    Caption = 'Maths'
     TabOrder = 0
   end
-  object RadioButton2: TRadioButton
-    Left = 160
-    Top = 320
-    Width = 113
-    Height = 17
-    Caption = 'RadioButton1'
+  object btnPhysics: TButton
+    Left = 392
+    Top = 272
+    Width = 75
+    Height = 25
+    Caption = 'Physics'
     TabOrder = 1
   end
-  object RadioButton3: TRadioButton
-    Left = 368
-    Top = 256
-    Width = 113
-    Height = 17
-    Caption = 'RadioButton1'
+  object btnChem: TButton
+    Left = 168
+    Top = 272
+    Width = 75
+    Height = 25
+    Caption = 'Chemistry'
     TabOrder = 2
-  end
-  object RadioButton4: TRadioButton
-    Left = 368
-    Top = 320
-    Width = 113
-    Height = 17
-    Caption = 'RadioButton1'
-    TabOrder = 3
   end
 end
