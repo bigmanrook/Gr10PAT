@@ -2,8 +2,8 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>2022/07/18 09:50:34.000.050,=C:\Users\Jude\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2022/07/18 18:53:58.000.612,C:\Users\Jude\Desktop\IT PAT Gr10\IT_PAT_Gr10.dfm=C:\Users\Jude\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
     <Transaction>2022/07/18 18:53:58.000.612,C:\Users\Jude\Desktop\IT PAT Gr10\IT_PAT_Gr10.pas=C:\Users\Jude\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/07/18 18:53:58.000.612,C:\Users\Jude\Desktop\IT PAT Gr10\IT_PAT_Gr10.dfm=C:\Users\Jude\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
     <Transaction>2022/07/18 18:54:26.000.298,C:\Users\Jude\Desktop\IT PAT Gr10\IT_PAT.dproj=C:\Users\Jude\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
     <Transaction>2022/07/31 08:48:58.000.731,=C:\Users\Jude\Desktop\IT PAT Gr10\Unit2.pas</Transaction>
     <Transaction>2022/07/31 08:51:53.000.900,C:\Users\Jude\Desktop\IT PAT Gr10\Unit2.pas=C:\Users\Jude\Desktop\IT PAT Gr10\MainPage.pas</Transaction>
@@ -15,5 +15,15 @@
     <Transaction>2022/08/08 16:23:44.000.980,C:\Users\Jude\Desktop\IT PAT Gr10\Unit1.pas=C:\Users\Jude\Desktop\IT PAT Gr10\Login_d.pas</Transaction>
     <Transaction>2022/08/08 16:23:44.000.980,C:\Users\Jude\Desktop\IT PAT Gr10\Unit1.dfm=C:\Users\Jude\Desktop\IT PAT Gr10\Login_d.dfm</Transaction>
     <Transaction>2022/08/08 16:54:13.000.892,=C:\Users\Jude\Desktop\IT PAT Gr10\Unit2.pas</Transaction>
+    <Transaction>2022/09/04 04:41:51.000.862,C:\Users\Jude\Desktop\repos\Grade10PAT\Grade10PAT\MainPage.pas=</Transaction>
+    <Transaction>2022/09/04 16:52:18.000.021,=C:\Users\Jude\Desktop\repos\Grade10PAT\Grade10PAT\Unit2.pas</Transaction>
+    <Transaction>2022/09/04 16:55:02.000.566,C:\Users\Jude\Desktop\repos\Grade10PAT\Grade10PAT\Unit2.dfm=C:\Users\Jude\Desktop\repos\Grade10PAT\Grade10PAT\MainMenu.dfm</Transaction>
+    <Transaction>2022/09/04 16:55:02.000.566,C:\Users\Jude\Desktop\repos\Grade10PAT\Grade10PAT\Unit2.pas=C:\Users\Jude\Desktop\repos\Grade10PAT\Grade10PAT\MainMenu.pas</Transaction>
+    <Transaction>2022/09/04 16:55:10.000.621,=C:\Users\Jude\Desktop\repos\Grade10PAT\Grade10PAT\Unit2.pas</Transaction>
+    <Transaction>2022/09/04 16:55:48.000.457,=C:\Users\Jude\Desktop\repos\Grade10PAT\Grade10PAT\Unit3.pas</Transaction>
+    <Transaction>2022/09/04 16:56:39.000.589,C:\Users\Jude\Desktop\repos\Grade10PAT\Grade10PAT\Unit3.pas=C:\Users\Jude\Desktop\repos\Grade10PAT\Grade10PAT\Profile.pas</Transaction>
+    <Transaction>2022/09/04 16:56:39.000.589,C:\Users\Jude\Desktop\repos\Grade10PAT\Grade10PAT\Unit3.dfm=C:\Users\Jude\Desktop\repos\Grade10PAT\Grade10PAT\Profile.dfm</Transaction>
+    <Transaction>2022/09/04 16:56:47.000.548,C:\Users\Jude\Desktop\repos\Grade10PAT\Grade10PAT\Unit2.pas=C:\Users\Jude\Desktop\repos\Grade10PAT\Grade10PAT\PauseScreen.pas</Transaction>
+    <Transaction>2022/09/04 16:56:47.000.548,C:\Users\Jude\Desktop\repos\Grade10PAT\Grade10PAT\Unit2.dfm=C:\Users\Jude\Desktop\repos\Grade10PAT\Grade10PAT\PauseScreen.dfm</Transaction>
   </Transactions>
 </BorlandProject>

@@ -36,4 +36,21 @@ object frmGameChoose: TfrmGameChoose
     Caption = 'Chemistry'
     TabOrder = 2
   end
+  object btnBack: TButton
+    Left = 168
+    Top = 376
+    Width = 75
+    Height = 25
+    Caption = 'Back'
+    TabOrder = 3
+  end
+  object btnExit: TButton
+    Left = 392
+    Top = 376
+    Width = 75
+    Height = 25
+    Caption = 'Exit'
+    TabOrder = 4
+    OnClick = btnExitClick
+  end
 end

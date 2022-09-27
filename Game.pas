@@ -11,6 +11,9 @@ type
     btnMath: TButton;
     btnPhysics: TButton;
     btnChem: TButton;
+    btnBack: TButton;
+    btnExit: TButton;
+    procedure btnExitClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -23,5 +26,10 @@ var
 implementation
 
 {$R *.dfm}
+
+procedure TfrmGameChoose.btnExitClick(Sender: TObject);
+begin
+application.terminate
+end;
 
 end.

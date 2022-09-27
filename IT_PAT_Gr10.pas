@@ -43,31 +43,6 @@ bLogin : boolean;
 
 {$R *.dfm}
 
-procedure TForm1.btnLoginClick(Sender: TObject);
-begin
-with dbmLogins do
-    begin
-      tblLogins.open;
-      tblLogins.First;
-
-      while NOT tblLogins.Eof do
-      begin
-        if (tblLogins['UserName'] = sUsername) AND
-          (tblLogins['Password'] = sPassword) then
-        begin
-          showMessage('You are logged in ' + sUsername);
-           exit
-        end
-        else
-          tblLogins.Next;
-      end;
-      if bLogin = false then
-      begin
-       ShowMessage('Username and/or password incorrect');
-        tblLogins.close;
-      end;
-end;
-
 procedure TForm1.btnRegisterClick(Sender: TObject);
 begin
 sUsername := edtUsername.Text;
@@ -91,4 +66,35 @@ else
   end;
 
 end;
+
+procedure TForm1.btnLoginClick(Sender: TObject);
+begin
+sUsername := edtUsername.text;
+sPassword := edtPassword.text;
+bLogin := False;
+
+with dbmLogins do
+    begin
+      tblLogins.open;
+      tblLogins.First;
+
+      while NOT tblLogins.Eof do
+      begin
+        if (tblLogins['UserName'] = sUsername) AND
+          (tblLogins['Password'] = sPassword) then
+        begin
+          showMessage('You are logged in ' + sUsername);
+          bLogin := True;
+           exit
+        end
+        else
+          tblLogins.Next;
+      end;
+      if bLogin = false then
+      begin
+       ShowMessage('Username and/or password incorrect');
+        tblLogins.close;
+      end;
 end;
+end;
+end.
