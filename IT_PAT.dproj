@@ -126,7 +126,7 @@
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
         <DCCReference Include="IT_PAT_Gr10.pas">
-            <Form>Form1</Form>
+            <Form>frmLoginRegister</Form>
             <FormType>dfm</FormType>
         </DCCReference>
         <DCCReference Include="Game.pas">
@@ -142,12 +142,12 @@
             <Form>frmMainMenu</Form>
             <FormType>dfm</FormType>
         </DCCReference>
-        <DCCReference Include="PauseScreen.pas">
-            <Form>frmPauseScreen</Form>
-            <FormType>dfm</FormType>
-        </DCCReference>
         <DCCReference Include="Profile.pas">
             <Form>frmProfile</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="MathGame.u.pas">
+            <Form>frmMathGame</Form>
             <FormType>dfm</FormType>
         </DCCReference>
         <BuildConfiguration Include="Release">

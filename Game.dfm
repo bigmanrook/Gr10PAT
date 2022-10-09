@@ -1,7 +1,7 @@
 object frmGameChoose: TfrmGameChoose
-  Left = 0
-  Top = 0
-  Caption = 'ChooseGame'
+  Left = 617
+  Top = 309
+  Caption = 'GameChoose'
   ClientHeight = 441
   ClientWidth = 624
   Color = clBtnFace
@@ -10,31 +10,18 @@ object frmGameChoose: TfrmGameChoose
   Font.Height = -12
   Font.Name = 'Segoe UI'
   Font.Style = []
+  OldCreateOrder = True
+  Position = poDesigned
   PixelsPerInch = 96
   TextHeight = 15
   object btnMath: TButton
-    Left = 280
-    Top = 272
-    Width = 75
-    Height = 25
-    Caption = 'Maths'
+    Left = 264
+    Top = 152
+    Width = 105
+    Height = 49
+    Caption = 'Start Math Game'
     TabOrder = 0
-  end
-  object btnPhysics: TButton
-    Left = 392
-    Top = 272
-    Width = 75
-    Height = 25
-    Caption = 'Physics'
-    TabOrder = 1
-  end
-  object btnChem: TButton
-    Left = 168
-    Top = 272
-    Width = 75
-    Height = 25
-    Caption = 'Chemistry'
-    TabOrder = 2
+    OnClick = btnMathClick
   end
   object btnBack: TButton
     Left = 168
@@ -42,7 +29,7 @@ object frmGameChoose: TfrmGameChoose
     Width = 75
     Height = 25
     Caption = 'Back'
-    TabOrder = 3
+    TabOrder = 1
   end
   object btnExit: TButton
     Left = 392
@@ -50,7 +37,7 @@ object frmGameChoose: TfrmGameChoose
     Width = 75
     Height = 25
     Caption = 'Exit'
-    TabOrder = 4
+    TabOrder = 2
     OnClick = btnExitClick
   end
 end

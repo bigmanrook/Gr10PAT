@@ -4,15 +4,15 @@ interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls, Vcl.Mask, Login_d,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls, Vcl.Mask, Login_d, MainMenu,
   Vcl.ComCtrls;
 
 type
-  TForm1 = class(TForm)
+  TfrmLoginRegister = class(TForm)
     edtPassword: TEdit;
     edtUsername: TEdit;
     Label2: TLabel;
-    EnterPaeg: TPageControl;
+    EnterPage: TPageControl;
     Login: TTabSheet;
     Register: TTabSheet;
     btnRegister: TButton;
@@ -24,6 +24,7 @@ type
     btnBack1: TButton;
     procedure btnRegisterClick(Sender: TObject);
     procedure btnLoginClick(Sender: TObject);
+    procedure btnExitClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -31,7 +32,7 @@ type
   end;
 
 var
-  Form1: TForm1;
+  frmLoginRegister: TfrmLoginRegister;
   sUsername, sPassword: String;
   icycles : Integer;
 
@@ -43,12 +44,16 @@ bLogin : boolean;
 
 {$R *.dfm}
 
-procedure TForm1.btnRegisterClick(Sender: TObject);
+procedure TfrmLoginRegister.btnRegisterClick(Sender: TObject);
 begin
 sUsername := edtUsername.Text;
 sPassword := edtPassword.Text;
 
-if dbmLogins.tblLogins.Locate('UserName', sUsername, []) = True then
+with dbmLogins do
+
+tblLogins.open;
+
+if dbmLogins.tblLogins.Locate('UserName', sUsername, [] ) then
 begin
   showMessage('This username already exists - Please try another one!')
 end
@@ -67,7 +72,12 @@ else
 
 end;
 
-procedure TForm1.btnLoginClick(Sender: TObject);
+procedure TfrmLoginRegister.btnExitClick(Sender: TObject);
+begin
+application.terminate
+end;
+
+procedure TfrmLoginRegister.btnLoginClick(Sender: TObject);
 begin
 sUsername := edtUsername.text;
 sPassword := edtPassword.text;
@@ -84,6 +94,8 @@ with dbmLogins do
           (tblLogins['Password'] = sPassword) then
         begin
           showMessage('You are logged in ' + sUsername);
+          frmMainMenu.Visible := True;
+          frmLoginRegister.Visible := False;
           bLogin := True;
            exit
         end

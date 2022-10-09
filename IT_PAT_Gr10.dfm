@@ -1,7 +1,7 @@
-object Form1: TForm1
-  Left = 0
-  Top = 0
-  Caption = 'Form1'
+object frmLoginRegister: TfrmLoginRegister
+  Left = 617
+  Top = 309
+  Caption = 'LoginRegister'
   ClientHeight = 469
   ClientWidth = 640
   Color = clBtnFace
@@ -11,9 +11,10 @@ object Form1: TForm1
   Font.Name = 'Segoe UI'
   Font.Style = []
   OldCreateOrder = True
+  Position = poDesigned
   PixelsPerInch = 96
   TextHeight = 15
-  object EnterPaeg: TPageControl
+  object EnterPage: TPageControl
     Left = 8
     Top = 17
     Width = 609
@@ -37,28 +38,27 @@ object Form1: TForm1
         Caption = 'Username'
       end
       object edtPassword: TEdit
-        Left = 287
+        Left = 234
         Top = 204
         Width = 121
         Height = 23
         TabOrder = 0
-        Text = 'Password'
       end
       object edtUsername: TEdit
-        Left = 287
+        Left = 234
         Top = 147
         Width = 121
         Height = 23
         TabOrder = 1
-        Text = 'Username'
       end
       object btnExit: TButton
-        Left = 136
+        Left = 112
         Top = 320
         Width = 75
         Height = 25
         Caption = 'Exit'
         TabOrder = 2
+        OnClick = btnExitClick
       end
       object btnLogin: TButton
         Left = 432
@@ -74,8 +74,8 @@ object Form1: TForm1
       Caption = 'Register'
       ImageIndex = 1
       object btnRegister: TButton
-        Left = 454
-        Top = 346
+        Left = 422
+        Top = 330
         Width = 75
         Height = 25
         Caption = 'Register'
@@ -83,32 +83,32 @@ object Form1: TForm1
         OnClick = btnRegisterClick
       end
       object Username: TLabeledEdit
-        Left = 248
-        Top = 128
+        Left = 232
+        Top = 136
         Width = 121
         Height = 23
-        EditLabel.Width = 70
+        EditLabel.Width = 53
         EditLabel.Height = 15
-        EditLabel.Caption = 'edtUsername'
+        EditLabel.Caption = 'Username'
         LabelPosition = lpLeft
         TabOrder = 1
-        Text = 'Username'
       end
       object Password: TLabeledEdit
-        Left = 248
-        Top = 192
+        Left = 232
+        Top = 200
         Width = 121
         Height = 23
-        EditLabel.Width = 70
+        EditLabel.Width = 50
         EditLabel.Height = 15
-        EditLabel.Caption = 'edtUsername'
+        EditLabel.BiDiMode = bdRightToLeft
+        EditLabel.Caption = 'Password'
+        EditLabel.ParentBiDiMode = False
         LabelPosition = lpLeft
         TabOrder = 2
-        Text = 'Password'
       end
       object btnBack1: TButton
-        Left = 102
-        Top = 346
+        Left = 86
+        Top = 330
         Width = 75
         Height = 25
         Caption = 'Back'
