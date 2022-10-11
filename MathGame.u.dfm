@@ -120,7 +120,7 @@ object frmMathGame: TfrmMathGame
   object lblScore1: TLabel
     Left = 141
     Top = 24
-    Width = 31
+    Width = 7
     Height = 25
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
@@ -150,7 +150,6 @@ object frmMathGame: TfrmMathGame
     Font.Style = []
     ParentFont = False
     TabOrder = 1
-    Text = 'Answer'
   end
   object btnGenerate: TButton
     Left = 248

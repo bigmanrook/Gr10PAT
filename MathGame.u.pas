@@ -38,6 +38,8 @@ type
 var
   frmMathGame: TfrmMathGame;
   iNum1, iNum2, iAnswer, iInput, iPoints : Integer;
+  SLine : String;
+
 
 
 
@@ -87,8 +89,16 @@ if RbtnMultiplication.Checked = True then
 end;
 
 procedure TfrmMathGame.btnHelpClick(Sender: TObject);
+var myfile : textfile ;
 begin
-showMessage('Please select a math operator first');
+Assignfile(myfile, 'Help.txt');
+Reset(myfile);
+while not eof (myfile) do
+  begin
+    Readln(myfile, sLine )
+  end;
+showMessage(sLine);
+Closefile(myfile);
 end;
 
 procedure TfrmMathGame.btnSubmitClick(Sender: TObject);

@@ -23,14 +23,14 @@ object frmLoginRegister: TfrmLoginRegister
     TabOrder = 0
     object Login: TTabSheet
       Caption = 'Login'
-      object Label2: TLabel
+      object lblPassword: TLabel
         Left = 178
         Top = 207
         Width = 50
         Height = 15
         Caption = 'Password'
       end
-      object Label3: TLabel
+      object lblUsername: TLabel
         Left = 175
         Top = 150
         Width = 53

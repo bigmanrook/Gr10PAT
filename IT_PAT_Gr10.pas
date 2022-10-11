@@ -11,12 +11,12 @@ type
   TfrmLoginRegister = class(TForm)
     edtPassword: TEdit;
     edtUsername: TEdit;
-    Label2: TLabel;
+    lblPassword: TLabel;
     EnterPage: TPageControl;
     Login: TTabSheet;
     Register: TTabSheet;
     btnRegister: TButton;
-    Label3: TLabel;
+    lblUsername: TLabel;
     btnExit: TButton;
     btnLogin: TButton;
     Username: TLabeledEdit;
@@ -79,9 +79,22 @@ end;
 
 procedure TfrmLoginRegister.btnLoginClick(Sender: TObject);
 begin
+
+if edtUsername.text = '' then
+  begin
+    showMessage('Please type in your username')
+  end;
+   if edtPassword.text = '' then
+  begin
+    showMessage('Please type in your username')
+  end;
+
 sUsername := edtUsername.text;
 sPassword := edtPassword.text;
 bLogin := False;
+
+
+
 
 with dbmLogins do
     begin
